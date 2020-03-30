@@ -34,6 +34,8 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 curTime = time.strftime('%Y%m%d-%H%M', time.localtime(time.time()))
 log_path = args.loggingdir+args.info.replace(" ","_")+"/"
+if not os.path.isdir(args.loggingdir):
+    os.mkdir(args.loggingdir)
 if not os.path.isdir(log_path):
     os.mkdir(log_path)
 log_name = log_path + curTime + '.log'
