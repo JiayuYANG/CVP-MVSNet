@@ -49,7 +49,7 @@ When finished, you can find depth maps in `output_pretrained` folder.
 ### 5. Generate point clouds and reproduce DTU results
 
 
-Check out the Yao Yao's modified version of fusibile
+Check out Yao Yao's modified version of fusibile
 
 `git clone https://github.com/YoYo000/fusibile`
 
