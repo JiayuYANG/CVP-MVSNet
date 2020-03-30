@@ -109,6 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+Env_*
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# CVP-MVSNet local files
+checkpoints/*

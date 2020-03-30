@@ -1,0 +1,4 @@
+Env*
+fusibile
+*.pyc
+__pycache__
