@@ -73,7 +73,7 @@ Use provided script to move generated point clouds into `outputs_pretrained/dtu_
 
 `python fusibile_to_dtu_eval.py`
 
-Evaluate the point clouds using the [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36) evaluation code.
+Evaluate the point clouds using the [DTU evaluation code](http://roboimagedata.compute.dtu.dk/?page_id=36).
 
 The results should be like:
 
