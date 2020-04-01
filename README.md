@@ -44,7 +44,7 @@ Download our pre-processed DTU testing data from [here](https://drive.google.com
 
 `sh eval.sh`
 
-When finished, you can find depth maps in `output_pretrained` folder.
+When finished, you can find depth maps in `outputs_pretrained` folder.
 
 ### 5. Generate point clouds and reproduce DTU results
 
