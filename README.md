@@ -57,7 +57,7 @@ Install fusibile by `cmake .` and `make`, which will generate the executable at`
 
 Link fusibile executable into fusion folder 
 
-`ln -s FUSIBILE_EXE_PATH CVP_MVSNet/fusion/fusible`
+`ln -s FUSIBILE_EXE_PATH CVP_MVSNet/fusion/fusibile`
 
 Install extra dependencies
 
