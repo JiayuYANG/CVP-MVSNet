@@ -44,20 +44,20 @@ Download our pre-processed DTU testing data from [here](https://drive.google.com
 
 `sh eval.sh`
 
-When finished, you can find depth maps in `output_pretrained` folder.
+When finished, you can find depth maps in `outputs_pretrained` folder.
 
 ### 5. Generate point clouds and reproduce DTU results
 
 
-Check out the Yao Yao's modified version of fusibile
+Check out Yao Yao's modified version of fusibile
 
 `git clone https://github.com/YoYo000/fusibile`
 
 Install fusibile by `cmake .` and `make`, which will generate the executable at`FUSIBILE_EXE_PATH`
 
-Link fusibile executable into fusion folder 
+Link fusibile executable into fusion folder (Note: You should modify FUSIBILE_EXE_PATH to the path to your fusibile executable)
 
-`ln -s FUSIBILE_EXE_PATH CVP_MVSNet/fusion/fusible`
+`ln -s FUSIBILE_EXE_PATH CVP_MVSNet/fusion/fusibile`
 
 Install extra dependencies
 
@@ -73,7 +73,7 @@ Use provided script to move generated point clouds into `outputs_pretrained/dtu_
 
 `python fusibile_to_dtu_eval.py`
 
-Evaluate the point clouds using the [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36) evaluation code.
+Evaluate the point clouds using the [DTU evaluation code](http://roboimagedata.compute.dtu.dk/?page_id=36).
 
 The results should be like:
 
