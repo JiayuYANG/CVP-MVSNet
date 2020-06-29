@@ -113,6 +113,15 @@ def calDepthHypo(netArgs,ref_depths,ref_intrinsics,src_intrinsics,ref_extrinsics
     height = ref_depths.shape[1]
     width = ref_depths.shape[2]
 
+    if netArgs.mode == "train":
+
+        depth_interval = torch.tensor([6.8085]*nBatch).cuda() # Hard code the interval for training on DTU with 1 level of refinement.
+        depth_hypos = ref_depths.unsqueeze(1).repeat(1,d*2,1,1)
+        for depth_level in range(-d,d):
+            depth_hypos[:,depth_level+d,:,:] += (depth_level)*depth_interval[0]
+
+        return depth_hypos
+
     with torch.no_grad():
 
         ref_depths = ref_depths

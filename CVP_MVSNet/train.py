@@ -177,7 +177,7 @@ def train_sample(sample, detailed_summary=False):
     loss = []
     for i in range(0,args.nscale):
         depth_gt = ref_depths[:,i,:int(dHeight/2**i),:int(dWidth/2**i)]
-        mask = depth_gt>0
+        mask = depth_gt>425
         loss.append(model_loss(depth_est_list[i], depth_gt.float(), mask))
 
     loss = sum(loss)
