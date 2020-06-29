@@ -7,11 +7,12 @@ CVP-MVSNet is compact, lightweight, fast in runtime and can  handle  high  resol
 If you find this project useful for your research, please cite:
 
 ```
-@inproceedings{yang2020cvpmvsnet,
-    title={Cost Volume Pyramid Based Depth Inference for Multi-View Stereo},
-    author={Jiayu Yang, Wei Mao, Jose M. Alvarez and Miaomiao Liu},
-    year={2020},
-    booktitle={CVPR},
+@InProceedings{Yang_2020_CVPR,
+    author = {Yang, Jiayu and Mao, Wei and Alvarez, Jose M. and Liu, Miaomiao},
+    title = {Cost Volume Pyramid Based Depth Inference for Multi-View Stereo},
+    booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2020}
 }
 ```
 
