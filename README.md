@@ -33,7 +33,7 @@ If you find this project useful for your research, please cite:
 
 Testing data(2G):
 
-Download our pre-processed DTU testing data from [here](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing) and extract it to `CVP-MVSNet/dataset/dtu-test-1200`.
+Download our pre-processed DTU testing data from [here](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing) and extract it to `CVP_MVSNet/dataset/dtu-test-1200`.
 
 ### 3. Install requirements
 
