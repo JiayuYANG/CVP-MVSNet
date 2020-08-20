@@ -33,7 +33,7 @@ If you find this project useful for your research, please cite:
 
 Testing data(2G):
 
-Download our pre-processed DTU testing data from [here](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing) and extract it to `CVP-MVSNet/datasets/dtu-test-1200`.
+Download our pre-processed DTU testing data from [here](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing) and extract it to `CVP-MVSNet/dataset/dtu-test-1200`.
 
 ### 3. Install requirements
 
@@ -72,7 +72,7 @@ Use provided script to use fusibile to generate point clouds.
 
 Use provided script to move generated point clouds into `outputs_pretrained/dtu_eval` folder
 
-`python fusibile_to_dtu_eval.py`
+`python2 fusibile_to_dtu_eval.py`
 
 Evaluate the point clouds using the [DTU evaluation code](http://roboimagedata.compute.dtu.dk/?page_id=36).
 
